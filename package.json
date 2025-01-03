@@ -1,0 +1,21 @@
+{
+  "name": "Web_workshop_backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/priyadharshan04/Web_workshop_backend.git",
+  "author": "priyadharshan04 <spdpriyan@gmail.com>",
+  "license": "MIT",
+  "scripts":{
+    "dev":"nodemon Web_workshop_backend/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "chart.js": "^4.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "moment": "^2.30.1",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.3"
+  }
+}
