@@ -66,5 +66,5 @@ app.delete("/users/:id", async (req, res) => {
 
 const PORT = 8000;
 app.listen(PORT, () => {
-    console.log(`Praabindh's Server Connected`);
+    console.log(`Priyadharshan's Server Connected`);
 });
